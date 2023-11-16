@@ -9,5 +9,6 @@ fetch('https://blockchain.info/ticker')
     btcPreco.innerHTML = (1000 / bitcoin.BRL.sell).toFixed(4);
   })
   .catch((erro) => {
+    // eslint-disable-next-line no-undef
     console.log(Erro(erro));
   });
