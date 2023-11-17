@@ -7,6 +7,7 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
   },
+  "outputDirectory": "public",
   "author": "",
   "license": "ISC",
   "devDependencies": {
